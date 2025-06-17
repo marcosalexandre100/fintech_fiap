@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-person-circle fs-2 me-2"></i>
+                <span id="user-name">Nome do Usuário</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="cadastroDropdown" role="button" data-bs-toggle="dropdown">
+                            Cadastro de Usuários
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Informações Pessoais</a></li>
+                            <li><a class="dropdown-item" href="#">Estabelecer Meta Financeira</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="recebimentosDropdown" role="button" data-bs-toggle="dropdown">
+                            Cadastro Recebimentos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Fonte de Rendas</a></li>
+                            <li><a class="dropdown-item" href="#">Investimentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gastosDropdown" role="button" data-bs-toggle="dropdown">
+                            Cadastro de Gastos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Despesas</a></li>
+                            <li><a class="dropdown-item" href="#">Mensagem</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="relatoriosDropdown" role="button" data-bs-toggle="dropdown">
+                            Relatórios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Gráficos</a></li>
+                            <li><a class="dropdown-item" href="#">Projeções</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="container my-5">
+        <div class="text-center">
+            <h1 class="mb-4">Bem-vindo ao Fintech!</h1>
+            <p class="lead">Gerencie suas finanças pessoais de forma simples, integrada e eficiente.</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-lines-fill fs-1 text-primary"></i>
+                            <h5 class="card-title mt-3">Cadastro de Usuários</h5>
+                            <p class="card-text">Atualize suas informações pessoais e defina suas metas financeiras.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-cash-stack fs-1 text-success"></i>
+                            <h5 class="card-title mt-3">Recebimentos</h5>
+                            <p class="card-text">Cadastre suas fontes de renda e investimentos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-cart4 fs-1 text-danger"></i>
+                            <h5 class="card-title mt-3">Gastos</h5>
+                            <p class="card-text">Registre suas despesas e acompanhe suas mensagens.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-bar-chart-line fs-1 text-warning"></i>
+                            <h5 class="card-title mt-3">Relatórios</h5>
+                            <p class="card-text">Visualize gráficos e projeções das suas finanças.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <div class="mb-2">
+                <a href="#" class="text-white me-3">Saiba mais</a>
+                <a href="#" class="text-white me-3">Entre em contato</a>
+                <a href="#" class="text-white">Dúvidas</a>
+            </div>
+            <small>&copy; 2025 Fintech. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
